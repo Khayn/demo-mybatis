@@ -1,0 +1,19 @@
+# get all
+GET localhost:8080/api/cities/
+
+###
+
+# get first
+GET localhost:8080/api/cities/id/1/
+
+###
+
+# insert new city
+POST localhost:8080/api/cities
+Content-Type: application/json
+
+{
+  "name": "Łódź",
+  "state": "łódzkie",
+  "country": "Polska"
+}
